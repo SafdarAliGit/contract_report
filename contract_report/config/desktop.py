@@ -4,6 +4,8 @@ def get_data():
 	return [
 		{
 			"module_name": "Contract Report",
+			"color": "grey",
+			"icon": "octicon octicon-file-directory",
 			"type": "module",
 			"label": _("Contract Report")
 		}

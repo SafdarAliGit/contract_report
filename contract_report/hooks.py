@@ -4,12 +4,19 @@ app_name = "contract_report"
 app_title = "Contract Report"
 app_publisher = "Tech Ventures"
 app_description = "this is installation report"
+app_icon = "octicon octicon-file-directory"
+app_color = "grey"
 app_email = "safdar211@gmail.com"
 app_license = "MIT"
+app_logo_url = "/assets/contract_report/images/Tech.png"
 
 # Includes in <head>
 # ------------------
-
+app_include_css = "/assets/contract_report/css/contract_report.css"
+website_context = {
+	"favicon": 	"/assets/contract_report/images/Tech.png",
+	"splash_image": "/assets/contract_report/images/Tech.png"
+}
 # include js, css files in header of desk.html
 # app_include_css = "/assets/contract_report/css/contract_report.css"
 # app_include_js = "/assets/contract_report/js/contract_report.js"
