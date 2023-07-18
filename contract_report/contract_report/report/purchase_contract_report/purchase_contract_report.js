@@ -5,10 +5,10 @@
 frappe.query_reports["Purchase Contract Report"] = {
 	"filters": [
 		{
-			"fieldname":"file_no",
-			"label": __("File No"),
+			"fieldname":"job_no",
+			"label": __("Job No"),
 			"fieldtype": "Link",
-			"options": "File No",
+			"options": "Master Towel Costing",
 			"reqd": 1
 			},
 	]
